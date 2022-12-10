@@ -4,18 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="746369b3-0528-4b6f-90e7-d9af6bbe424d" name="Changes" comment="Fix Product service">
+    <list default="true" id="746369b3-0528-4b6f-90e7-d9af6bbe424d" name="Changes" comment="Backend läuft, &#10;--&gt; add endpunkt nimmt zZ Product statt ProductDTO entgegen und DB muss vorab über &#10;# for Docker&#10;docker run --name myPostgresDb -p 5455:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=product_db -d postgres&#10;&#10;gebaut und gestartet werden.">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/ProductBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/ProductBackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/interfaces/ProductInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/interfaces/ProductInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/ProductBackendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/ProductBackendApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/interfaces/ProductInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/interfaces/ProductInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/services/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.htwkbews2022.product_backend.ProductBackendApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.htwkbews2022.product_backend.port.product.ControlerHelperTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.htwkbews2022.product_backend.ProductBackendApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.htwkbews2022.product_backend.port.product.ControlerHelperTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/core/services/ProductServiceHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/core/services/ProductServiceHelperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="jPl/erste_Lauffähige_version" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,24 +74,28 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Buero/uni/HTW/HTW_6_Sem/KBE/Projekte/product_backend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Buero/uni/HTW/HTW_6_Sem/KBE/Projekte/product_backend/src&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;4fe39fdbb1e9a2b0744112c87d1e170b&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Buero\uni\HTW\HTW_6_Sem\KBE\Projekte\product_backend\src" />
       <recent name="C:\Buero\uni\HTW\HTW_6_Sem\KBE\Projekte\product_backend" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Buero\uni\HTW\HTW_6_Sem\KBE\Projekte\product_backend" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.htwkbews2022.product_backend.core.services" />
       <recent name="com.htwkbews2022.product_backend.port.product" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductBackendApplication">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="ControlerHelperTest.translateDto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product_backend" />
       <extension name="coverage">
@@ -143,8 +151,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile build" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="maven3.6.3-openjdk-17_build" />
+          <option name="buildCliOptions" value="--target build" />
+          <option name="buildKitEnabled" value="true" />
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.Dockerfile build" />
         <item itemvalue="JUnit.ProductServiceHelperTest.changeCount" />
         <item itemvalue="JUnit.ControlerHelperTest.translateNullDto" />
         <item itemvalue="JUnit.ControlerHelperTest.translateDto" />
@@ -162,7 +192,8 @@
       <workItem from="1670600045520" duration="11402000" />
       <workItem from="1670613007227" duration="1531000" />
       <workItem from="1670614897041" duration="69000" />
-      <workItem from="1670674629847" duration="12613000" />
+      <workItem from="1670674629847" duration="14658000" />
+      <workItem from="1670691848560" duration="2410000" />
     </task>
     <task id="LOCAL-00001" summary="tryPush">
       <created>1670613650548</created>
@@ -185,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670685964190</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Backend läuft, &#10;--&gt; add endpunkt nimmt zZ Product statt ProductDTO entgegen und DB muss vorab über &#10;# for Docker&#10;docker run --name myPostgresDb -p 5455:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=product_db -d postgres&#10;&#10;gebaut und gestartet werden.">
+      <created>1670690039964</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670690039964</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Backend läuft, &#10;--&gt; add endpunkt nimmt zZ Product statt ProductDTO entgegen und DB muss vorab über &#10;# for Docker&#10;docker run --name myPostgresDb -p 5455:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=product_db -d postgres&#10;&#10;gebaut und gestartet werden.">
+      <created>1670690053954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670690053954</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +247,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="jPl/afterGitTruble" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -218,7 +263,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="tryPush" />
     <MESSAGE value="Fix Product service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Product service" />
+    <MESSAGE value="Backend läuft, &#10;--&gt; add endpunkt nimmt zZ Product statt ProductDTO entgegen und DB muss vorab über &#10;# for Docker&#10;docker run --name myPostgresDb -p 5455:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=product_db -d postgres&#10;&#10;gebaut und gestartet werden." />
+    <option name="LAST_COMMIT_MESSAGE" value="Backend läuft, &#10;--&gt; add endpunkt nimmt zZ Product statt ProductDTO entgegen und DB muss vorab über &#10;# for Docker&#10;docker run --name myPostgresDb -p 5455:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=product_db -d postgres&#10;&#10;gebaut und gestartet werden." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

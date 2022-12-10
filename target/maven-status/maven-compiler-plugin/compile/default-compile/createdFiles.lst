@@ -1,0 +1,13 @@
+com\htwkbews2022\product_backend\port\data\ProductDTO.class
+com\htwkbews2022\product_backend\ProductBackendApplication.class
+com\htwkbews2022\product_backend\core\interfaces\ProductRepoInterface.class
+com\htwkbews2022\product_backend\port\product\ControlerHelper.class
+com\htwkbews2022\product_backend\core\services\ProductService.class
+com\htwkbews2022\product_backend\core\interfaces\ProductInterface.class
+com\htwkbews2022\product_backend\port\product\ProductController.class
+com\htwkbews2022\product_backend\core\domain\model\Product$ProductBuilder.class
+com\htwkbews2022\product_backend\core\domain\model\Category.class
+com\htwkbews2022\product_backend\core\domain\model\Currency.class
+com\htwkbews2022\product_backend\port\product\exeption\ProductNotFoundExeption.class
+com\htwkbews2022\product_backend\port\product\failHandling\ProductNotFoundHanling.class
+com\htwkbews2022\product_backend\core\domain\model\Product.class
