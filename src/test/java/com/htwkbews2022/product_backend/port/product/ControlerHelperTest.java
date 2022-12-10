@@ -4,12 +4,12 @@ import com.htwkbews2022.product_backend.core.domain.model.Category;
 import com.htwkbews2022.product_backend.core.domain.model.Currency;
 import com.htwkbews2022.product_backend.core.domain.model.Product;
 import com.htwkbews2022.product_backend.port.data.ProductDTO;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 class ControlerHelperTest {
 
@@ -37,6 +37,32 @@ class ControlerHelperTest {
         assertEquals(Currency.EURO, product.getCurrency());
         assertEquals("Verry good homade stuff or oil", product.getDescription());
         assertEquals("http://www.du_do_auch.de", product.getUrl());
+
+    }
+
+    @Test
+    void translateNullDto() {
+        ProductDTO productDTO = new ProductDTO();
+        UUID uuid = null;
+        productDTO.setId(uuid);
+        productDTO.setTitle(null);
+        productDTO.setCategory(null);
+        productDTO.setCount(-1);
+        productDTO.setPrice(-1);
+        productDTO.setCurrency(null);
+        productDTO.setDescription(null);
+        productDTO.setUrl(null);
+
+        Product product = ControlerHelper.translateDto(productDTO);
+
+        assertEquals(uuid, product.getId());
+        assertNull(product.getTitle());
+        assertNull(product.getCategory());
+        assertEquals(-1, product.getCount());
+        assertEquals(-1, product.getPrice());
+        assertNull(product.getCurrency());
+        assertNull(product.getDescription());
+        assertNull(product.getUrl());
 
     }
 }

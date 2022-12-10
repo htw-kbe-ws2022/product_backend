@@ -6,6 +6,7 @@ import com.htwkbews2022.product_backend.port.data.ProductDTO;
 
 public class ControlerHelper {
 
+
     static Product translateDto(ProductDTO productDTO){
         Product product = new Product();
         product.setId(productDTO.id);

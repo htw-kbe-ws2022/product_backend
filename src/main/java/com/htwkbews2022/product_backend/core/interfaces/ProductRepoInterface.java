@@ -1,5 +1,5 @@
 
-package com.htwkbews2022.product_backend.port.data;
+package com.htwkbews2022.product_backend.core.interfaces;
 
 import com.htwkbews2022.product_backend.core.domain.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
