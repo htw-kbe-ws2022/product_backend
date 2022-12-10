@@ -35,27 +35,27 @@ public class ProductController {
     @PatchMapping("/patch")
     public Product pathProduct(@RequestBody ProductDTO productDTO){
         Product product = ControlerHelper.translateDto(productDTO);
-       return productRepo.updateProduct(product);
+        return productRepo.updateProduct(product);
     }
 
     @PostMapping("/add")
-    public void addProduct(@RequestBody ProductDTO productDTO){
+    public void addProduct(@RequestBody ProductDTO productDTO) {
         Product product = ControlerHelper.translateDto(productDTO);
         productRepo.createProduct(product);
     }
 
-    @PatchMapping("/increment/{count}")
-    public int incrementProduct(@PathVariable(value = "count") int count){
-        return productRepo.incrementProduct(count);
+    @PatchMapping("/increment/{uuid}/{count}")
+    public int incrementProduct(@PathVariable(value = "uuid") UUID uuid, @PathVariable(value = "count") int count) {
+        return productRepo.incrementProduct(uuid, count);
     }
 
     @PatchMapping("/decrement/{count}")
-    public int dercementProduct(@PathParam(value = "count") int count){
-        return productRepo.decrementProduct(count);
+    public int dercementProduct(@PathVariable(value = "uuid") UUID uuid, @PathParam(value = "count") int count) {
+        return productRepo.decrementProduct(uuid, count);
     }
 
     @PatchMapping("/addToCard")
-    public boolean addProductToCard(@RequestBody ProductDTO productDTO){
+    public boolean addProductToCard(@RequestBody ProductDTO productDTO) {
         Product product = ControlerHelper.translateDto(productDTO);
         return productRepo.addToCard(product);
     }

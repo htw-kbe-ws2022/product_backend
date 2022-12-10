@@ -17,9 +17,9 @@ public interface ProductInterface {
 
     List<Product> getProducts();
 
-    int incrementProduct(int count);
+    int incrementProduct(UUID uuid, int count);
 
-    int decrementProduct(int count);
+    int decrementProduct(UUID uuid, int count);
 
     boolean addToCard(Product product);
 
