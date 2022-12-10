@@ -54,9 +54,9 @@ public class ProductService implements ProductInterface {
     }
 
     @Override
-    public boolean addToCard(Product product) {
+    public boolean addToCard(UUID uuid, int count) {
         // todo send to Cart
-        changeCount(product.getId(), -1);
+        changeCount(uuid, count * -1);
         return false;
     }
 

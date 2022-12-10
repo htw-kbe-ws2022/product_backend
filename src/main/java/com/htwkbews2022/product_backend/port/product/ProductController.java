@@ -23,10 +23,11 @@ public class ProductController {
 
     @GetMapping("")
     public List<Product> getAllProducts(){
+        log.info("testLog");
         return productRepo.getProducts();
     }
 
-    @GetMapping("/{uuid]")
+    @GetMapping("/{uuid}")
     public Product getProduct(@PathVariable(value = "uuid")UUID uuid){
         return productRepo.getProduct(uuid);
     }
@@ -39,8 +40,8 @@ public class ProductController {
     }
 
     @PostMapping("/add")
-    public void addProduct(@RequestBody ProductDTO productDTO) {
-        Product product = ControlerHelper.translateDto(productDTO);
+    public void addProduct(@RequestBody Product product) {
+        //Product product = ControlerHelper.translateDto(productDTO);
         productRepo.createProduct(product);
     }
 
@@ -49,15 +50,14 @@ public class ProductController {
         return productRepo.incrementProduct(uuid, count);
     }
 
-    @PatchMapping("/decrement/{count}")
+    @PatchMapping("/decrement/{uuid}/{count}")
     public int dercementProduct(@PathVariable(value = "uuid") UUID uuid, @PathParam(value = "count") int count) {
         return productRepo.decrementProduct(uuid, count);
     }
 
-    @PatchMapping("/addToCard")
-    public boolean addProductToCard(@RequestBody ProductDTO productDTO) {
-        Product product = ControlerHelper.translateDto(productDTO);
-        return productRepo.addToCard(product);
+    @PatchMapping("/addToCard/{uuid}/{count}")
+    public boolean addProductToCard(@PathVariable(value = "uuid") UUID uuid, @PathParam(value = "count") int count) {
+        return productRepo.addToCard(uuid, count);
     }
 
     @DeleteMapping("/delete")
@@ -65,4 +65,6 @@ public class ProductController {
         Product product = ControlerHelper.translateDto(productDTO);
         productRepo.deleteProduct(product);
     }
+
+
 }

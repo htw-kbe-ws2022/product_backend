@@ -21,7 +21,7 @@ public interface ProductInterface {
 
     int decrementProduct(UUID uuid, int count);
 
-    boolean addToCard(Product product);
+    boolean addToCard(UUID uuid, int count);
 
 
 
