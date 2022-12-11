@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="746369b3-0528-4b6f-90e7-d9af6bbe424d" name="Changes" comment="Backend läuft, &#10;--&gt; add endpunkt nimmt zZ Product statt ProductDTO entgegen und DB muss vorab über &#10;# for Docker&#10;docker run --name myPostgresDb -p 5455:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=product_db -d postgres&#10;&#10;gebaut und gestartet werden.">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.htwkbews2022.product_backend.ProductBackendApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.htwkbews2022.product_backend.port.product.ControlerHelperTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.htwkbews2022.product_backend.ProductBackendApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.htwkbews2022.product_backend.port.product.ControlerHelperTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/core/services/ProductServiceHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/core/services/ProductServiceHelperTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="746369b3-0528-4b6f-90e7-d9af6bbe424d" name="Changes" comment="Backend läuft, &#10;FÄHRT ALS COUNTAINER INKL: dB HOCH&#10;&#10;MIT &#10;docker-compose up --force-recreate --build" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,26 +43,30 @@
     </option>
   </component>
   <component name="ProjectId" id="2IgP1ivPo4CpP8wrp8KHculygAy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Buero/uni/HTW/HTW_6_Sem/KBE/Projekte/product_backend/src&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4fe39fdbb1e9a2b0744112c87d1e170b&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Buero/uni/HTW/HTW_6_Sem/KBE/Projekte/product_backend/src",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "4fe39fdbb1e9a2b0744112c87d1e170b"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Buero\uni\HTW\HTW_6_Sem\KBE\Projekte\product_backend\src" />
@@ -193,7 +181,7 @@
       <workItem from="1670613007227" duration="1531000" />
       <workItem from="1670614897041" duration="69000" />
       <workItem from="1670674629847" duration="14658000" />
-      <workItem from="1670691848560" duration="2410000" />
+      <workItem from="1670691848560" duration="3148000" />
     </task>
     <task id="LOCAL-00001" summary="tryPush">
       <created>1670613650548</created>
@@ -230,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670690053954</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Backend läuft, &#10;FÄHRT ALS COUNTAINER INKL: dB HOCH&#10;&#10;MIT &#10;docker-compose up --force-recreate --build">
+      <created>1670695543543</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670695543543</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Backend läuft, &#10;FÄHRT ALS COUNTAINER INKL: dB HOCH&#10;&#10;MIT &#10;docker-compose up --force-recreate --build">
+      <created>1670695578378</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670695578378</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +249,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="jPl/weiterentwicklung_und_tests" />
                       </list>
                     </value>
                   </entry>
@@ -261,10 +263,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="tryPush" />
     <MESSAGE value="Fix Product service" />
     <MESSAGE value="Backend läuft, &#10;--&gt; add endpunkt nimmt zZ Product statt ProductDTO entgegen und DB muss vorab über &#10;# for Docker&#10;docker run --name myPostgresDb -p 5455:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=product_db -d postgres&#10;&#10;gebaut und gestartet werden." />
-    <option name="LAST_COMMIT_MESSAGE" value="Backend läuft, &#10;--&gt; add endpunkt nimmt zZ Product statt ProductDTO entgegen und DB muss vorab über &#10;# for Docker&#10;docker run --name myPostgresDb -p 5455:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=product_db -d postgres&#10;&#10;gebaut und gestartet werden." />
+    <MESSAGE value="Backend läuft, &#10;FÄHRT ALS COUNTAINER INKL: dB HOCH&#10;&#10;MIT &#10;docker-compose up --force-recreate --build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backend läuft, &#10;FÄHRT ALS COUNTAINER INKL: dB HOCH&#10;&#10;MIT &#10;docker-compose up --force-recreate --build" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
