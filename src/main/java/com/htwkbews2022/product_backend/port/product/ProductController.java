@@ -6,6 +6,7 @@ import com.htwkbews2022.product_backend.core.interfaces.ProductInterface;
 import com.htwkbews2022.product_backend.port.data.ProductDTO;
 import jakarta.websocket.server.PathParam;
 import lombok.extern.slf4j.Slf4j;
+import lombok.val;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -34,14 +35,15 @@ public class ProductController {
 
 
     @PatchMapping("/patch")
-    public Product pathProduct(@RequestBody ProductDTO productDTO){
+    public ProductDTO pathProduct(@RequestBody ProductDTO productDTO) {
         Product product = ControlerHelper.translateDto(productDTO);
-        return productRepo.updateProduct(product);
+        val updatedProduct = productRepo.updateProduct(product);
+        return ControlerHelper.buildDTOfromProduct((updatedProduct));
     }
 
     @PostMapping("/add")
-    public void addProduct(@RequestBody Product product) {
-        //Product product = ControlerHelper.translateDto(productDTO);
+    public void addProduct(@RequestBody ProductDTO productDTO) {
+        Product product = ControlerHelper.translateDto(productDTO);
         productRepo.createProduct(product);
     }
 

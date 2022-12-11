@@ -19,4 +19,17 @@ public class ControlerHelper {
         product.setUrl(productDTO.url);
         return product;
     }
+
+    static ProductDTO buildDTOfromProduct(Product product) {
+        ProductDTO productDto = new ProductDTO();
+        productDto.setId(product.getId());
+        productDto.setTitle(product.getTitle());
+        productDto.setCurrency(product.getCurrency());
+        productDto.setCategory(product.getCategory());
+        productDto.setCount(product.getCount());
+        productDto.setPrice(product.getPrice());
+        productDto.setDescription(product.getDescription());
+        productDto.setUrl(product.getUrl());
+        return productDto;
+    }
 }
