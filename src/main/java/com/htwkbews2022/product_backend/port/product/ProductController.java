@@ -15,6 +15,7 @@ import java.util.UUID;
 
 
 @Slf4j
+@CrossOrigin(origins = "http://localhost:8080")
 @RestController
 @RequestMapping("/product")
 public class ProductController {
@@ -22,9 +23,10 @@ public class ProductController {
     @Autowired
     ProductInterface productRepo;
 
+    @CrossOrigin(origins = "http://localhost:8080")
     @GetMapping("")
     public List<Product> getAllProducts(){
-        log.info("testLog");
+        log.info("getAllProducts");
         return productRepo.getProducts();
     }
 
@@ -35,7 +37,7 @@ public class ProductController {
 
 
     @PatchMapping("/patch")
-    public ProductDTO pathProduct(@RequestBody ProductDTO productDTO) {
+    public ProductDTO patchProduct(@RequestBody ProductDTO productDTO) {
         Product product = ControlerHelper.translateDto(productDTO);
         val updatedProduct = productRepo.updateProduct(product);
         return ControlerHelper.buildDTOfromProduct((updatedProduct));

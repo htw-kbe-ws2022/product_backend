@@ -72,18 +72,19 @@ public class ProductService implements ProductInterface {
 
     protected Product changeProductDetail(Product newProduct) {
         Product orgProduct = productRepo.getReferenceById(newProduct.getId());
-        orgProduct.setTitle((isEqulasOrNullOrMinusOne(newProduct.getTitle(), orgProduct.getTitle())));
-        orgProduct.setCurrency((isEqulasOrNullOrMinusOne(newProduct.getCurrency(), orgProduct.getCurrency())));
-        orgProduct.setCategory((isEqulasOrNullOrMinusOne(newProduct.getCategory(), orgProduct.getCategory())));
-        orgProduct.setCount((isEqulasOrNullOrMinusOne(newProduct.getCount(), orgProduct.getCount())));
-        orgProduct.setPrice((isEqulasOrNullOrMinusOne(newProduct.getPrice(), orgProduct.getPrice())));
-        orgProduct.setDescription((isEqulasOrNullOrMinusOne(newProduct.getTitle(), orgProduct.getTitle())));
-        orgProduct.setUrl((isEqulasOrNullOrMinusOne(newProduct.getTitle(), orgProduct.getTitle())));
+        orgProduct.setTitle((isEqualsOrNullOrMinusOne(newProduct.getTitle(), orgProduct.getTitle())));
+        orgProduct.setCurrency((isEqualsOrNullOrMinusOne(newProduct.getCurrency(), orgProduct.getCurrency())));
+        orgProduct.setCategory((isEqualsOrNullOrMinusOne(newProduct.getCategory(), orgProduct.getCategory())));
+        orgProduct.setCount((isEqualsOrNullOrMinusOne(newProduct.getCount(), orgProduct.getCount())));
+        orgProduct.setPrice((isEqualsOrNullOrMinusOne(newProduct.getPrice(), orgProduct.getPrice())));
+        orgProduct.setDescription((isEqualsOrNullOrMinusOne(newProduct.getTitle(), orgProduct.getTitle())));
+        orgProduct.setUrl((isEqualsOrNullOrMinusOne(newProduct.getTitle(), orgProduct.getTitle())));
         return orgProduct;
     }
 
-    private <T> T isEqulasOrNullOrMinusOne(T one, T two) {
-        if (one == null || one.equals(-1) || one != two)
+
+    private <T> T isEqualsOrNullOrMinusOne(T one, T two) {
+        if (one == null || one.equals(-1))// || one != two)
             return two;
         return one;
     }

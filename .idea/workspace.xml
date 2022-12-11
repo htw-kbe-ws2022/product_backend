@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="746369b3-0528-4b6f-90e7-d9af6bbe424d" name="Changes" comment="Backend läuft, &#10;FÄHRT ALS COUNTAINER INKL: dB HOCH&#10;&#10;MIT &#10;docker-compose up --force-recreate --build">
+    <list default="true" id="746369b3-0528-4b6f-90e7-d9af6bbe424d" name="Changes" comment="controler Angepasst">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/ProductBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/ProductBackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ControlerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ControlerHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/services/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/ProductBackendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/ProductBackendApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/services/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/core/services/ProductServiceHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/core/services/ProductServiceHelperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +123,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductBackendApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product_backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htwkbews2022.product_backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.htwkbews2022.product_backend" />
+      <option name="MAIN_CLASS_NAME" value="com.htwkbews2022.product_backend.ProductBackendApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductServiceHelperTest.changeCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product_backend" />
       <extension name="coverage">
@@ -141,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductBackendApplicationTests" />
         <item itemvalue="JUnit.ProductServiceHelperTest.changeCount" />
         <item itemvalue="JUnit.ControlerHelperTest.translateNullDto" />
         <item itemvalue="JUnit.ControlerHelperTest.translateDto" />
         <item itemvalue="JUnit.ProductServiceHelperTest.changeCount" />
-        <item itemvalue="JUnit.ControlerHelperTest.translateNullDto" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670685964190</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="controler Angepasst">
+      <created>1670763612620</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670763612620</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +246,8 @@
     <MESSAGE value="tryPush" />
     <MESSAGE value="Fix Product service" />
     <MESSAGE value="Backend läuft, &#10;FÄHRT ALS COUNTAINER INKL: dB HOCH&#10;&#10;MIT &#10;docker-compose up --force-recreate --build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backend läuft, &#10;FÄHRT ALS COUNTAINER INKL: dB HOCH&#10;&#10;MIT &#10;docker-compose up --force-recreate --build" />
+    <MESSAGE value="controler Angepasst" />
+    <option name="LAST_COMMIT_MESSAGE" value="controler Angepasst" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -242,7 +272,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ProductController.java</url>
-          <line>18</line>
+          <line>19</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
