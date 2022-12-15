@@ -5,33 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="746369b3-0528-4b6f-90e7-d9af6bbe424d" name="Changes" comment="controler Angepasst">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/ProductBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/ProductBackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/domain/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/domain/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/data/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/data/ProductDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ControlerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ControlerHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/exeption/ProductNotFoundExeption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/exception/ProductNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/failHandling/ProductNotFoundHanling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/advice/ProductNotFoundHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/ProductBackendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/ProductBackendApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/domain/model/Product$ProductBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/domain/model/Product$ProductBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/domain/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/domain/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/services/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/data/ProductDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/data/ProductDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ControlerHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ControlerHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.htwkbews2022.product_backend.ProductBackendApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.htwkbews2022.product_backend.port.product.ControlerHelperTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.htwkbews2022.product_backend.ProductBackendApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.htwkbews2022.product_backend.port.product.ControlerHelperTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/exeption/ProductNotFoundExeption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/failHandling/ProductNotFoundHanling.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +180,7 @@
       <workItem from="1670838257795" duration="7566000" />
       <workItem from="1670953713566" duration="3362000" />
       <workItem from="1671120894848" duration="651000" />
+      <workItem from="1671129349310" duration="569000" />
     </task>
     <task id="LOCAL-00001" summary="tryPush">
       <created>1670613650548</created>
@@ -231,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670763612620</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="controler Angepasst">
+      <created>1671129574514</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671129574514</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +234,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="jPl/afterGitTruble" />
+                        <option value="jPl/backend_und_dbAlsDocker" />
                       </list>
                     </value>
                   </entry>
