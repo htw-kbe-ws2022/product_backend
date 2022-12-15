@@ -16,7 +16,7 @@ public class ProductDTO {
     public int count;
     public double price;
     public String description;
-    public String url;
+    public String picUrl;
     public int countForCard;
 }
 

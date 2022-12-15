@@ -5,7 +5,6 @@ package com.htwkbews2022.product_backend.core.domain.model;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.Date;
 import java.util.UUID;
 
 @Getter
@@ -35,12 +34,6 @@ public class Product {
     @Column(name = "price")
     private double price;
 
-    @Column(name = "createDate")
-    private Date createDate;
-
-    @Column(name = "updatedAt")
-    private Date updatedAt;
-
     @Column(name = "isDeleted")
     private boolean isDeleted;
 
@@ -48,6 +41,6 @@ public class Product {
     private String description;
 
     @Column(name = "picURL")
-    private String url;
+    private String picUrl;
 
 }

@@ -16,7 +16,7 @@ public class ControlerHelper {
         product.setCount(productDTO.count);
         product.setPrice(productDTO.price);
         product.setDescription(productDTO.description);
-        product.setUrl(productDTO.url);
+        product.setPicUrl(productDTO.picUrl);
         return product;
     }
 
@@ -29,7 +29,7 @@ public class ControlerHelper {
         productDto.setCount(product.getCount());
         productDto.setPrice(product.getPrice());
         productDto.setDescription(product.getDescription());
-        productDto.setUrl(product.getUrl());
+        productDto.setPicUrl(product.getPicUrl());
         return productDto;
     }
 }

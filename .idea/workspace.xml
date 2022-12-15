@@ -6,15 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="746369b3-0528-4b6f-90e7-d9af6bbe424d" name="Changes" comment="controler Angepasst">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/ProductBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/ProductBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/domain/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/domain/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/core/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/data/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/data/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ControlerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ControlerHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/exeption/ProductNotFoundExeption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/exception/ProductNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/failHandling/ProductNotFoundHanling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/advice/ProductNotFoundHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/ProductBackendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/ProductBackendApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/domain/model/Product$ProductBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/domain/model/Product$ProductBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/domain/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/domain/model/Product.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/services/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/data/ProductDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/data/ProductDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ControlerHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ControlerHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/core/services/ProductServiceHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/core/services/ProductServiceHelperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.htwkbews2022.product_backend.ProductBackendApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.htwkbews2022.product_backend.port.product.ControlerHelperTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.htwkbews2022.product_backend.ProductBackendApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.htwkbews2022.product_backend.port.product.ControlerHelperTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/htwkbews2022/product_backend/port/product/ControlerHelperTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +89,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Buero/uni/HTW/HTW_6_Sem/KBE/Projekte/product_backend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gsm/OneDrive/Desktop/gs-rest-service-cors-main&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;4fe39fdbb1e9a2b0744112c87d1e170b&quot;
   }
@@ -90,7 +106,7 @@
       <recent name="com.htwkbews2022.product_backend.port.product" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductBackendApplication">
+  <component name="RunManager" selected="JUnit.ProductBackendApplicationTests">
     <configuration name="ControlerHelperTest.translateDto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product_backend" />
       <extension name="coverage">
@@ -183,6 +199,9 @@
       <workItem from="1670613007227" duration="1531000" />
       <workItem from="1670614897041" duration="69000" />
       <workItem from="1670674629847" duration="12613000" />
+      <workItem from="1670838257795" duration="7566000" />
+      <workItem from="1670953713566" duration="3362000" />
+      <workItem from="1671120894848" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="tryPush">
       <created>1670613650548</created>
@@ -272,7 +291,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ProductController.java</url>
-          <line>19</line>
+          <line>18</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

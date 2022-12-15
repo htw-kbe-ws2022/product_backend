@@ -25,7 +25,7 @@ class ControlerHelperTest {
         productDTO.setPrice(3.99);
         productDTO.setCurrency(Currency.EURO);
         productDTO.setDescription("Verry good homade stuff or oil");
-        productDTO.setUrl("http://www.du_do_auch.de");
+        productDTO.setPicUrl("http://www.du_do_auch.de");
 
         Product product = ControlerHelper.translateDto(productDTO);
 
@@ -36,7 +36,7 @@ class ControlerHelperTest {
         assertEquals(3.99, product.getPrice());
         assertEquals(Currency.EURO, product.getCurrency());
         assertEquals("Verry good homade stuff or oil", product.getDescription());
-        assertEquals("http://www.du_do_auch.de", product.getUrl());
+        assertEquals("http://www.du_do_auch.de", product.getPicUrl());
 
     }
 
@@ -51,7 +51,7 @@ class ControlerHelperTest {
         productDTO.setPrice(-1);
         productDTO.setCurrency(null);
         productDTO.setDescription(null);
-        productDTO.setUrl(null);
+        productDTO.setPicUrl(null);
 
         Product product = ControlerHelper.translateDto(productDTO);
 
@@ -62,7 +62,7 @@ class ControlerHelperTest {
         assertEquals(-1, product.getPrice());
         assertNull(product.getCurrency());
         assertNull(product.getDescription());
-        assertNull(product.getUrl());
+        assertNull(product.getPicUrl());
 
     }
 }

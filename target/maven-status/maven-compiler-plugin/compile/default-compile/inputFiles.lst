@@ -5,7 +5,7 @@ C:\Buero\uni\HTW\HTW_6_Sem\KBE\Projekte\product_backend\src\main\java\com\htwkbe
 C:\Buero\uni\HTW\HTW_6_Sem\KBE\Projekte\product_backend\src\main\java\com\htwkbews2022\product_backend\core\domain\model\Product.java
 C:\Buero\uni\HTW\HTW_6_Sem\KBE\Projekte\product_backend\src\main\java\com\htwkbews2022\product_backend\core\interfaces\ProductInterface.java
 C:\Buero\uni\HTW\HTW_6_Sem\KBE\Projekte\product_backend\src\main\java\com\htwkbews2022\product_backend\port\data\ProductDTO.java
-C:\Buero\uni\HTW\HTW_6_Sem\KBE\Projekte\product_backend\src\main\java\com\htwkbews2022\product_backend\port\data\ProductRepoInterface.java
+C:\Buero\uni\HTW\HTW_6_Sem\KBE\Projekte\product_backend\src\main\java\com\htwkbews2022\product_backend\core\interfaces\ProductRepoInterface.java
 C:\Buero\uni\HTW\HTW_6_Sem\KBE\Projekte\product_backend\src\main\java\com\htwkbews2022\product_backend\ProductBackendApplication.java
 C:\Buero\uni\HTW\HTW_6_Sem\KBE\Projekte\product_backend\src\main\java\com\htwkbews2022\product_backend\core\services\ProductService.java
 C:\Buero\uni\HTW\HTW_6_Sem\KBE\Projekte\product_backend\src\main\java\com\htwkbews2022\product_backend\port\product\ProductController.java

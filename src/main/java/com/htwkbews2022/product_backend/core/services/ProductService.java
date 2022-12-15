@@ -78,7 +78,7 @@ public class ProductService implements ProductInterface {
         orgProduct.setCount((isEqualsOrNullOrMinusOne(newProduct.getCount(), orgProduct.getCount())));
         orgProduct.setPrice((isEqualsOrNullOrMinusOne(newProduct.getPrice(), orgProduct.getPrice())));
         orgProduct.setDescription((isEqualsOrNullOrMinusOne(newProduct.getTitle(), orgProduct.getTitle())));
-        orgProduct.setUrl((isEqualsOrNullOrMinusOne(newProduct.getTitle(), orgProduct.getTitle())));
+        orgProduct.setPicUrl((isEqualsOrNullOrMinusOne(newProduct.getTitle(), orgProduct.getTitle())));
         return orgProduct;
     }
 
