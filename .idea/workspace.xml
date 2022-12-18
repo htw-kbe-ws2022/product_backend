@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="746369b3-0528-4b6f-90e7-d9af6bbe424d" name="Changes" comment="controler Angepasst">
+    <list default="true" id="746369b3-0528-4b6f-90e7-d9af6bbe424d" name="Changes" comment="try ane error läuft gerade...">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/ProductBackendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/ProductBackendApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/domain/model/Product$ProductBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/domain/model/Product$ProductBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/domain/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/core/domain/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/exception/ProductNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwkbews2022/product_backend/port/product/exception/ProductNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +31,10 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="d164825abc61e53ca7ef6dc927ae3765cc1b777c" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -178,6 +179,8 @@
       <workItem from="1670613007227" duration="1531000" />
       <workItem from="1670614897041" duration="69000" />
       <workItem from="1670674629847" duration="12613000" />
+      <workItem from="1671200077012" duration="2193000" />
+      <workItem from="1671363687804" duration="1207000" />
     </task>
     <task id="LOCAL-00001" summary="tryPush">
       <created>1670613650548</created>
@@ -207,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670763612620</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="try ane error läuft gerade...">
+      <created>1671132432717</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671132432717</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +234,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="jPl/afterGitTruble" />
+                        <option value="jPl/backend_und_dbAlsDocker" />
                       </list>
                     </value>
                   </entry>
@@ -242,7 +252,8 @@
     <MESSAGE value="Fix Product service" />
     <MESSAGE value="Backend läuft, &#10;FÄHRT ALS COUNTAINER INKL: dB HOCH&#10;&#10;MIT &#10;docker-compose up --force-recreate --build" />
     <MESSAGE value="controler Angepasst" />
-    <option name="LAST_COMMIT_MESSAGE" value="controler Angepasst" />
+    <MESSAGE value="try ane error läuft gerade..." />
+    <option name="LAST_COMMIT_MESSAGE" value="try ane error läuft gerade..." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
