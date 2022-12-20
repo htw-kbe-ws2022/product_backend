@@ -22,8 +22,6 @@ public class ProductController {
     @Autowired
     ProductInterface productRepo;
 
-    //@CrossOrigin(origins = "http://localhost:8080")
-    //@CrossOrigin(origins = "http://localhost:3000")
     @GetMapping("")
     public List<Product> getAllProducts() {
         log.info("getAllProducts");

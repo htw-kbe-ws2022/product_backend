@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="746369b3-0528-4b6f-90e7-d9af6bbe424d" name="Changes" comment="try ane error läuft gerade...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +179,9 @@
       <workItem from="1670614897041" duration="69000" />
       <workItem from="1670674629847" duration="12613000" />
       <workItem from="1671200077012" duration="2193000" />
-      <workItem from="1671363687804" duration="1207000" />
+      <workItem from="1671363687804" duration="2074000" />
+      <workItem from="1671475193227" duration="862000" />
+      <workItem from="1671553270502" duration="1530000" />
     </task>
     <task id="LOCAL-00001" summary="tryPush">
       <created>1670613650548</created>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671132432717</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="try ane error läuft gerade...">
+      <created>1671375391320</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671375391320</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,11 +283,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/htwkbews2022/product_backend/core/services/ProductServiceHelperTest.java</url>
           <line>17</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/htwkbews2022/product_backend/port/product/ProductController.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
