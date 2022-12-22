@@ -74,5 +74,19 @@ public class ProductController {
         productRepo.deleteProduct(product);
     }
 
+    @GetMapping("/finalize")
+    public String finalizeGetProduct(/*@RequestBody ProductDTO productDTO*/) {
+        //Product product = ControlerHelper.translateDto(productDTO);
+        //productRepo.deleteProduct(product);
+        return "Get finalize @ productBackend";
+    }
+
+    @PostMapping("/finalize")
+    public String finalizePostProduct(/*@RequestBody ProductDTO productDTO*/) {
+        //Product product = ControlerHelper.translateDto(productDTO);
+        //productRepo.deleteProduct(product);
+        return "Post finalize @ productBackend";
+    }
+
 
 }
